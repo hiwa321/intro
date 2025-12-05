@@ -1,0 +1,240 @@
+/* =============================================================
+   GreentekX — Animated Intro (Aligned Version)
+   Globe beside G + Tagline aligned under logo + Smooth layout
+============================================================= */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(160deg, #f3fcf7 0%, #e8f9f0 100%);
+}
+
+/* ===== Root layout ===== */
+.intro-screen {
+  position: relative;
+  display: flex;
+  justify-content: center;   /* مرکز افقی */
+  align-items: center;       /* مرکز عمودی */
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(160deg, #f3fcf7 0%, #e8f9f0 100%);
+  overflow: hidden;
+  transition: opacity 0.8s ease;
+}
+
+.intro-screen.outro {
+  opacity: 0;
+}
+
+.intro-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* 👈 درون مجموعه چپ‌تراز بماند */
+  justify-content: center;
+  text-align: left;
+  z-index: 10;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 1.2s ease;
+}
+
+.intro-center.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+/* ===== Globe + Logo ===== */
+.intro-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+
+/* Globe — gentle rotation beside G */
+.intro-globe {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #00ffb4 0%, #0ea371 80%, #007a5b 100%);
+  box-shadow: 0 0 40px rgba(31, 199, 123, 0.5);
+  transform: translateX(10px) translateY(00px);
+  
+}
+
+@keyframes globeEnter {
+  0%   { transform: translateX(-160px) translateY(8px) scale(0.6) rotate(0deg); opacity: 0; }
+  60%  { transform: translateX(10px) translateY(8px) scale(1.1) rotate(160deg); opacity: 1; }
+  100% { transform: translateX(0) translateY(8px) scale(1) rotate(360deg); opacity: 1; }
+}
+
+@keyframes globeRotate {
+  0%   { transform: translateX(0) translateY(2px) rotate(0deg); }
+  100% { transform: translateX(0) translateY(8px) rotate(360deg); }
+}
+
+/* ===== Logo text ===== */
+.intro-title {
+  font-size: 52px;
+  font-weight: 800;
+  color: #083823;
+  letter-spacing: -1px;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: titleFade 1.8s ease forwards;
+  animation-delay: 0.6s;
+}
+
+@keyframes titleFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro-tagline {
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #145c41;
+  letter-spacing: 0.3px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: taglineFade 1.8s ease forwards;
+  animation-delay: 1.2s;
+}
+
+
+@keyframes taglineFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Button ===== */
+.intro-btn {
+  margin-top: 4.2rem;
+  background: linear-gradient(90deg, #1fc77b 0%, #0ea371 50%, #2ee8a0 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 14px 32px;
+  cursor: pointer;
+  box-shadow: 0 8px 28px rgba(31, 199, 123, 0.25);
+  opacity: 0;
+  animation: btnAppear 1.4s ease forwards;
+  animation-delay: 2s;
+}
+
+
+@keyframes btnAppear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(31, 199, 123, 0.35);
+}
+
+/* ===== Footer ===== */
+.intro-footer {
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: #4b625a;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  opacity: 0;
+  animation: footerFade 1.5s ease forwards;
+  animation-delay: 2.3s;
+}
+
+@keyframes footerFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .intro-screen {
+    padding-left: 10%;
+  }
+
+  .intro-title {
+    font-size: 40px;
+  }
+
+  .intro-tagline {
+    font-size: 17px;
+    margin-left: 80px;
+  }
+
+  .intro-btn {
+    margin-left: 80px;
+    font-size: 15px;
+    padding: 14px 36px;
+  }
+
+  .intro-globe {
+    width: 64px;
+    height: 64px;
+  }
+}
+/* ===== Three-key benefits row under Enter button ===== */
+.intro-mini-trust {
+  width: 100%;
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  opacity: 0;
+  animation: miniTrustFade 1.4s ease forwards;
+  animation-delay: 2.2s;
+}
+
+@keyframes miniTrustFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro-mini-trust div {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0d4a32;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+/* Mobile layout */
+@media (max-width: 780px) {
+  .intro-mini-trust {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 28px;
+  }
+
+  .intro-mini-trust div {
+    font-size: 14px;
+  }
+}

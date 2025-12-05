@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button {
+  all: unset;
+}
+
+:root { --accent: #10b981; }
+input[type="checkbox"], input[type="radio"] { accent-color: var(--accent); }
