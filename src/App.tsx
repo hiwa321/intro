@@ -7,7 +7,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Intro from "./pages/intro/Intro";
+import Intro from "./pages/Intro/Intro";
 import LandingPage from "./pages/landing/LandingPage";
 
 export default function App() {
