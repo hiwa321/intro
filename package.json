@@ -4,9 +4,9 @@
   "version": "0.3.0",
   "type": "module",
   "scripts": {
-    "predev": "npm install xlsx --save --no-audit --no-fund",
+    "predev": "npm install xlsx --no-audit --no-fund",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
