@@ -1,14 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import "./Intro.css";
 
 /* =============================================================
-   GreentekX — Animated Intro (Final Professional Version)
-   Dynamic Globe + Brand Entrance + Footer Alignment
+   GreentekX — Animated Intro (i18n-ready)
+   - Brand hardcoded
+   - Real language switch (EN | FI)
+   - Animation & routing preserved
 ============================================================= */
 
 const Intro: React.FC = () => {
   const navigate = useNavigate();
+  const { t, i18n } = useTranslation();
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
@@ -22,38 +26,55 @@ const Intro: React.FC = () => {
     setTimeout(() => navigate("/landing"), 900);
   };
 
+  const changeLang = (lang: "en" | "fi") => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("lang", lang);
+  };
+
   return (
-  <div className="intro-screen">
-    <div className={`intro-center ${animate ? "show" : ""}`}>
+    <div className="intro-screen">
+      {/* Language Switch — top right */}
+      <div className="intro-lang-switch">
+        <button
+          className={i18n.language === "en" ? "active" : ""}
+          onClick={() => changeLang("en")}
+        >
+          EN
+        </button>
+        <span>|</span>
+        <button
+          className={i18n.language === "fi" ? "active" : ""}
+          onClick={() => changeLang("fi")}
+        >
+          FI
+        </button>
+      </div>
 
-      <div className="intro-logo">
-        <div className="intro-globe">
-          <div className="globe-inner"></div>
+      <div className={`intro-center ${animate ? "show" : ""}`}>
+        <div className="intro-logo">
+          <div className="intro-globe">
+            <div className="globe-inner"></div>
+          </div>
+          {/* Brand must NOT be translated */}
+          <h1 className="intro-title">GreentekX</h1>
         </div>
-        <h1 className="intro-title">GreentekX</h1>
+
+        <p className="intro-tagline">{t("intro.tagline")}</p>
+
+        <button className="intro-btn" onClick={handleEnter}>
+          {t("intro.enter")}
+        </button>
+
+        <div className="intro-mini-trust">
+          <div>{t("intro.trust.eu")}</div>
+          <div>{t("intro.trust.independent")}</div>
+          <div>{t("intro.trust.secure")}</div>
+        </div>
       </div>
 
-      <p className="intro-tagline">Measure Carbon. Build Cleaner & Greener.</p>
-
-      <button className="intro-btn" onClick={handleEnter}>
-        Enter Platform
-      </button>
-
-      {/* FIX: سه جمله زیر دکمه باید اینجــا باشند */}
-      <div className="intro-mini-trust">
-        <div>EU-Ready Compliance</div>
-        <div>Independent Assessment</div>
-        <div>Confidential & Secure</div>
-      </div>
-
+      <footer className="intro-footer">{t("intro.footer")}</footer>
     </div>
-
-    <footer className="intro-footer">
-      Aligned with EU Taxonomy • EN 15978 +A2 • Level(s)
-    </footer>
-  </div>
-);
-
+  );
 };
 
 export default Intro;
