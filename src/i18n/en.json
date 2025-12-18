@@ -142,6 +142,30 @@
       }
     },
 
+    "infoForm": {
+      "title": "General inquiry",
+      "subtitle": "Send us a short message and we will get back to you.",
+      "fields": {
+        "fullName": {
+          "placeholder": "Full name"
+        },
+        "email": {
+          "placeholder": "Email address"
+        },
+        "organisation": {
+          "placeholder": "Organisation (optional)"
+        },
+        "country": {
+          "placeholder": "Country"
+        },
+        "message": {
+          "placeholder": "Your message"
+        }
+      },
+      "errorMessage": "Please fill in the required fields.",
+      "successMessage": "Your message has been sent successfully."
+    },
+
     "options": {
       "stage": {
         "placeholder": "Select project stage",
