@@ -553,3 +553,35 @@
   text-decoration: underline;
   color: #0b412f;
 }
+/* ===============================
+   Data & Privacy (Form Section)
+================================ */
+
+.privacy-box {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(14, 123, 83, 0.06);
+  border: 1px solid rgba(14, 123, 83, 0.18);
+}
+
+.privacy-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0e3d2c;
+  margin-bottom: 6px;
+}
+
+.privacy-list {
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(7, 58, 41, 0.85);
+}
+
+.privacy-list li + li {
+  margin-top: 4px;
+}
+
