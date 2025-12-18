@@ -3,7 +3,6 @@
     "brand": "GreentekX Platform",
     "tagline": "EU-ready • EN 15978 • Level(s) • EU Taxonomy • CSRD"
   },
-
   "intro": {
     "tagline": "Measure Carbon. Build Cleaner & Greener.",
     "enter": "Enter Platform",
@@ -14,7 +13,6 @@
     },
     "footer": "Aligned with EU Taxonomy • EN 15978 +A2 • Level(s)"
   },
-
   "landing": {
     "hero": {
       "tagline": "Measure Carbon. Build Cleaner & Greener.",
@@ -24,7 +22,6 @@
       "responseTime": "Typical response time: 1–2 business days",
       "trust": "Regulatory-ready for EU Taxonomy • EN 15804+A2 • EN 15978 • Level(s)"
     },
-
     "value": {
       "title": "Why GreentekX?",
       "items": {
@@ -42,7 +39,6 @@
         }
       }
     },
-
     "capabilities": {
       "title": "Core Capabilities",
       "items": {
@@ -72,7 +68,6 @@
         }
       }
     },
-
     "advantages": {
       "title": "What Makes GreentekX Different?",
       "left": {
@@ -86,7 +81,6 @@
         "3": "Modern, scientific UI designed for real project workflows."
       }
     },
-
     "who": {
       "title": "Who Uses GreentekX?",
       "items": {
@@ -98,14 +92,12 @@
         "6": "Public-sector and regulatory bodies"
       }
     },
-
     "final": {
       "title": "Ready to Bring EU-grade Whole-Life Carbon to Your Projects?",
       "sub": "Start with a pilot project or request a sample regulatory assessment to see how GreentekX fits your workflow.",
       "primaryCta": "Request Regulatory Assessment",
       "secondaryCta": "Request More Information"
     },
-
     "regulatoryForm": {
       "title": "Regulatory Carbon Assessment Request",
       "subtitle": "Provide basic project information to receive a regulatory-compliant Whole-Life Carbon report.",
@@ -141,7 +133,6 @@
         }
       }
     },
-
     "infoForm": {
       "title": "General inquiry",
       "subtitle": "Send us a short message and we will get back to you.",
@@ -165,7 +156,6 @@
       "errorMessage": "Please fill in the required fields.",
       "successMessage": "Your message has been sent successfully."
     },
-
     "options": {
       "stage": {
         "placeholder": "Select project stage",
@@ -209,7 +199,6 @@
         "other": "Other"
       }
     },
-
     "privacy": {
       "title": "Data & Privacy",
       "items": {
@@ -219,17 +208,14 @@
         "4": "Full deletion available upon request."
       }
     },
-
     "footer": {
       "contact": "Contact us:"
     }
   },
-
   "dashboard": {
     "title": "Projects Dashboard",
     "subtitle": "Portfolio overview and carbon performance analysis"
   },
-
   "filters": {
     "search": "Search projects...",
     "country": "Country",
@@ -239,7 +225,6 @@
     "normalization": "Normalization",
     "benchmarkProfile": "Benchmark Profile"
   },
-
   "kpi": {
     "totalProjects": "Total Projects",
     "avgGwpPerM2": "Average GWP (A1–C4, kgCO₂e/m²)",
@@ -247,7 +232,6 @@
     "embodiedOperationalRatio": "Embodied vs Operational",
     "stageCoverage": "Stage Coverage"
   },
-
   "table": {
     "project": "Project",
     "type": "Type",
@@ -262,18 +246,15 @@
       "delete": "Delete"
     }
   },
-
   "export": {
     "pdf": "Export PDF",
     "csv": "Export CSV",
     "json": "Export JSON"
   },
-
   "empty": {
     "noProjects": "No projects available yet",
     "cta": "Click the button below to create your first project and start tracking carbon emissions."
   },
-
   "common": {
     "close": "Close",
     "cancel": "Cancel",
