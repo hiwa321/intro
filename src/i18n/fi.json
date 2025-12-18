@@ -3,7 +3,6 @@
     "brand": "GreentekX-alusta",
     "tagline": "EU-valmis • EN 15978 • Level(s) • EU-taksonomia • CSRD"
   },
-
   "intro": {
     "tagline": "Mittaa hiili. Rakenna puhtaammin ja vihreämmin.",
     "enter": "Siirry alustalle",
@@ -14,7 +13,6 @@
     },
     "footer": "Yhdenmukainen EU-taksonomian • EN 15978 +A2 • Level(s) kanssa"
   },
-
   "landing": {
     "hero": {
       "tagline": "Mittaa hiili. Rakenna puhtaammin ja vihreämmin.",
@@ -24,7 +22,6 @@
       "responseTime": "Tyypillinen vasteaika: 1–2 arkipäivää",
       "trust": "Valmis EU-taksonomiaan • EN 15804+A2 • EN 15978 • Level(s)"
     },
-
     "value": {
       "title": "Miksi GreentekX?",
       "items": {
@@ -42,7 +39,6 @@
         }
       }
     },
-
     "capabilities": {
       "title": "Keskeiset ominaisuudet",
       "items": {
@@ -72,7 +68,6 @@
         }
       }
     },
-
     "advantages": {
       "title": "Mikä erottaa GreentekX:n?",
       "left": {
@@ -86,7 +81,6 @@
         "3": "Moderni ja tieteellinen käyttöliittymä todellisiin projektityönkulkuihin."
       }
     },
-
     "who": {
       "title": "Kenelle GreentekX on tarkoitettu?",
       "items": {
@@ -98,14 +92,12 @@
         "6": "Julkisen sektorin ja viranomaisprojektit"
       }
     },
-
     "final": {
       "title": "Valmis tuomaan EU-tasoisen elinkaaren hiilianalyysin projekteihisi?",
       "sub": "Aloita pilottiprojektilla tai pyydä esimerkkiraportti nähdäksesi, miten GreentekX tukee työnkulkuasi.",
       "primaryCta": "Pyydä sääntelyraportti",
       "secondaryCta": "Pyydä lisätietoja"
     },
-
     "regulatoryForm": {
       "title": "Sääntelyn mukainen hiiliarviointipyyntö",
       "subtitle": "Anna perustiedot projektistasi saadaksesi sääntelyvaatimukset täyttävän elinkaaren hiiliraportin.",
@@ -141,7 +133,6 @@
         }
       }
     },
-
     "infoForm": {
       "title": "Yhteydenottopyyntö",
       "subtitle": "Lähetä lyhyt viesti, niin palaamme asiaan mahdollisimman pian.",
@@ -165,7 +156,6 @@
       "errorMessage": "Täytä pakolliset kentät.",
       "successMessage": "Viestisi on lähetetty onnistuneesti."
     },
-
     "options": {
       "buildingType": {
         "placeholder": "Valitse rakennustyyppi",
@@ -209,7 +199,6 @@
         "other": "Other"
       }
     },
-
     "privacy": {
       "title": "Tietosuoja",
       "items": {
@@ -219,17 +208,14 @@
         "4": "Täysi tietojen poisto pyynnöstä."
       }
     },
-
     "footer": {
       "contact": "Ota yhteyttä:"
     }
   },
-
   "dashboard": {
     "title": "Projektien hallintapaneeli",
     "subtitle": "Portfolion yleiskuva ja hiilisuorituskyvyn analyysi"
   },
-
   "filters": {
     "search": "Hae projekteja...",
     "country": "Maa",
@@ -247,7 +233,6 @@
     "embodiedOperationalRatio": "Sisällytetty vs. käytönaikainen",
     "stageCoverage": "Vaiheiden kattavuus"
   },
-
   "table": {
     "project": "Projekti",
     "type": "Tyyppi",
@@ -262,18 +247,15 @@
       "delete": "Poista"
     }
   },
-
   "export": {
     "pdf": "Vie PDF",
     "csv": "Vie CSV",
     "json": "Vie JSON"
   },
-
   "empty": {
     "noProjects": "Ei vielä projekteja",
     "cta": "Luo ensimmäinen projekti ja aloita hiilipäästöjen seuranta."
   },
-
   "common": {
     "close": "Sulje",
     "cancel": "Peruuta",
