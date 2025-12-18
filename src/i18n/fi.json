@@ -142,6 +142,30 @@
       }
     },
 
+    "infoForm": {
+      "title": "Yhteydenottopyyntö",
+      "subtitle": "Lähetä lyhyt viesti, niin palaamme asiaan mahdollisimman pian.",
+      "fields": {
+        "fullName": {
+          "placeholder": "Koko nimi"
+        },
+        "email": {
+          "placeholder": "Sähköpostiosoite"
+        },
+        "organisation": {
+          "placeholder": "Organisaatio (valinnainen)"
+        },
+        "country": {
+          "placeholder": "Maa"
+        },
+        "message": {
+          "placeholder": "Viestisi"
+        }
+      },
+      "errorMessage": "Täytä pakolliset kentät.",
+      "successMessage": "Viestisi on lähetetty onnistuneesti."
+    },
+
     "options": {
       "buildingType": {
         "placeholder": "Valitse rakennustyyppi",
