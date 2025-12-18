@@ -1,16 +1,51 @@
-import en from './en.json'
-import fi from './fi.json'
-import de from './de.json'
-import sv from './sv.json'
-import nl from './nl.json'
+import en from "./en.json";
+import fi from "./fi.json";
+import de from "./de.json";
+import sv from "./sv.json";
+import nl from "./nl.json";
 
-const dictionaries: Record<string, Record<string,string>> = { en, fi, de, sv, nl }
-export type Lang = keyof typeof dictionaries
+const dictionaries = {
+  en,
+  fi,
+  de,
+  sv,
+  nl,
+} as const;
 
-let current: Lang = 'en'
-export function setLang(l: Lang){ current = l }
-export function t(key: string){
-  const dict = dictionaries[current] || dictionaries['en']
-  return dict[key] || key
+export type Lang = keyof typeof dictionaries;
+
+let currentLang: Lang = "en";
+
+export function setLang(lang: Lang) {
+  currentLang = lang;
 }
-export const langs: Lang[] = ['en','fi','de','sv','nl']
+
+export function getLang(): Lang {
+  return currentLang;
+}
+
+export const langs: Lang[] = Object.keys(dictionaries) as Lang[];
+
+function resolveNestedKey(obj: Record<string, any>, path: string): string | null {
+  return (
+    path
+      .split(".")
+      .reduce(
+        (acc: any, key: string) =>
+          acc && acc[key] !== undefined ? acc[key] : null,
+        obj
+      ) ?? null
+  );
+}
+
+export function t(key: string): string {
+  const primaryDict = dictionaries[currentLang];
+  const fallbackDict = dictionaries.en;
+
+  const value =
+    resolveNestedKey(primaryDict, key) ??
+    resolveNestedKey(fallbackDict, key);
+
+  return value === null ? key : String(value);
+}
+
