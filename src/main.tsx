@@ -4,7 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";     
 import "./index.css";
-
+import "./i18n";
 /* حذف شد:
 import "./pages/auth/auth.css";
 */
