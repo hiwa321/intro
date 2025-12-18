@@ -1,0 +1,53 @@
+{
+  "app": {
+    "brand": "GreenTekX-plattformen",
+    "tagline": "EU-klar • EN 15978 • Level(s) • EU-taxonomi • CSRD"
+  },
+  "dashboard": {
+    "title": "Projektdashboard",
+    "subtitle": "Portföljöversikt och koldioxidprestandaanalys"
+  },
+  "filters": {
+    "search": "Sök projekt...",
+    "country": "Land",
+    "type": "Byggnadstyp",
+    "stage": "Projektstadium",
+    "modules": "Moduler",
+    "normalization": "Normalisering",
+    "benchmarkProfile": "Jämförelseprofil"
+  },
+  "kpi": {
+    "totalProjects": "Antal projekt",
+    "avgGwpPerM2": "Genomsnittligt GWP (A1–C4, kgCO₂e/m²)",
+    "compliance": "Efterlevnad",
+    "embodiedOperationalRatio": "Inbyggd vs Drift",
+    "stageCoverage": "Fasetäckning"
+  },
+  "table": {
+    "project": "Projekt",
+    "type": "Typ",
+    "country": "Land",
+    "area": "Yta (m²)",
+    "year": "År",
+    "gwpA1C4": "GWP (A1–C4)",
+    "compliance": "Efterlevnad",
+    "performance": "Prestandaklass",
+    "actions": {
+      "open": "Öppna",
+      "delete": "Radera"
+    }
+  },
+  "compare": {
+    "title": "Projektjämförelse",
+    "subtitle": "Välj projekt för att jämföra nyckelindikatorer"
+  },
+  "export": {
+    "pdf": "Exportera PDF",
+    "csv": "Exportera CSV",
+    "json": "Exportera JSON"
+  },
+  "empty": {
+    "noProjects": "Inga projekt tillgängliga ännu",
+    "cta": "Skapa ditt första projekt och börja spåra koldioxidutsläpp."
+  }
+}

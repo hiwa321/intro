@@ -1,0 +1,53 @@
+{
+  "app": {
+    "brand": "GreenTekX Platform",
+    "tagline": "EU-klaar • EN 15978 • Level(s) • EU Taxonomie • CSRD"
+  },
+  "dashboard": {
+    "title": "Projectendashboard",
+    "subtitle": "Portfolio-overzicht en koolstofprestatieanalyse"
+  },
+  "filters": {
+    "search": "Projecten zoeken...",
+    "country": "Land",
+    "type": "Gebouwtype",
+    "stage": "Projectfase",
+    "modules": "Modules",
+    "normalization": "Normalisatie",
+    "benchmarkProfile": "Benchmarkprofiel"
+  },
+  "kpi": {
+    "totalProjects": "Totaal projecten",
+    "avgGwpPerM2": "Gemiddelde GWP (A1–C4, kgCO₂e/m²)",
+    "compliance": "Conformiteit",
+    "embodiedOperationalRatio": "Ingebouwd vs Operationeel",
+    "stageCoverage": "Fase dekking"
+  },
+  "table": {
+    "project": "Project",
+    "type": "Type",
+    "country": "Land",
+    "area": "Oppervlakte (m²)",
+    "year": "Jaar",
+    "gwpA1C4": "GWP (A1–C4)",
+    "compliance": "Conformiteit",
+    "performance": "Prestatieklasse",
+    "actions": {
+      "open": "Openen",
+      "delete": "Verwijderen"
+    }
+  },
+  "compare": {
+    "title": "Projectvergelijking",
+    "subtitle": "Selecteer projecten om belangrijke indicatoren te vergelijken"
+  },
+  "export": {
+    "pdf": "Exporteren als PDF",
+    "csv": "Exporteren als CSV",
+    "json": "Exporteren als JSON"
+  },
+  "empty": {
+    "noProjects": "Nog geen projecten beschikbaar",
+    "cta": "Maak je eerste project aan en begin met het volgen van CO₂-uitstoot."
+  }
+}

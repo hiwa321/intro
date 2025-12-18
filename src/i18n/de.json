@@ -1,0 +1,53 @@
+{
+  "app": {
+    "brand": "GreenTekX Plattform",
+    "tagline": "EU-bereit • EN 15978 • Level(s) • EU-Taxonomie • CSRD"
+  },
+  "dashboard": {
+    "title": "Projekt-Dashboard",
+    "subtitle": "Portfolioübersicht und CO₂-Leistungsanalyse"
+  },
+  "filters": {
+    "search": "Projekte suchen...",
+    "country": "Land",
+    "type": "Gebäudetyp",
+    "stage": "Projektphase",
+    "modules": "Module",
+    "normalization": "Normalisierung",
+    "benchmarkProfile": "Benchmark-Profil"
+  },
+  "kpi": {
+    "totalProjects": "Gesamtzahl der Projekte",
+    "avgGwpPerM2": "Durchschn. GWP (A1–C4, kgCO₂e/m²)",
+    "compliance": "Konformität",
+    "embodiedOperationalRatio": "Bau- vs. Betriebsphase",
+    "stageCoverage": "Phasenabdeckung"
+  },
+  "table": {
+    "project": "Projekt",
+    "type": "Typ",
+    "country": "Land",
+    "area": "Fläche (m²)",
+    "year": "Jahr",
+    "gwpA1C4": "GWP (A1–C4)",
+    "compliance": "Konformität",
+    "performance": "Leistungsklasse",
+    "actions": {
+      "open": "Öffnen",
+      "delete": "Löschen"
+    }
+  },
+  "compare": {
+    "title": "Projektvergleich",
+    "subtitle": "Wählen Sie Projekte aus, um Indikatoren zu vergleichen"
+  },
+  "export": {
+    "pdf": "Als PDF exportieren",
+    "csv": "Als CSV exportieren",
+    "json": "Als JSON exportieren"
+  },
+  "empty": {
+    "noProjects": "Noch keine Projekte verfügbar",
+    "cta": "Erstellen Sie Ihr erstes Projekt und beginnen Sie mit der CO₂-Verfolgung."
+  }
+}
