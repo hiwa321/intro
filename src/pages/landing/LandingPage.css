@@ -45,6 +45,7 @@
 .lp-hero {
   padding: 60px 0 60px;
   text-align: center;
+ position: relative;
 }
 
 .lp-hero-inner {
@@ -524,37 +525,31 @@
 .lp-bullets li + li {
   margin-top: 10px;
 }
-/* ===== Privacy Notice (Bullet UI) — GreentekX Style ===== */
+/* ===== Language Switcher (Top Right) ===== */
 
-.privacy-box {
-  margin-top: 14px;
-  padding: 12px 16px;
-  background: #f8fbfa; /* روشن و حرفه‌ای */
-  border: 1px solid #dce9e4;
-  border-radius: 10px;
-  font-family: "Inter", sans-serif;
-  color: #234436;              /* سبز تیره علمی */
-  line-height: 1.5;
+.lp-hero {
+  position: relative;
+}
+
+.lp-lang-switch {
+  position: absolute;
+  top: 24px;
+  right: 32px;
   font-size: 13px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+  font-weight: 600;
+  z-index: 5; /* پایین‌تر از modal */
 }
 
-.privacy-title {
-  font-weight: 700;
-  font-size: 13px;
-  color: #0d3b29;
-  margin-bottom: 6px;
+.lp-lang-switch button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #0e7b53;
+  padding: 2px 4px;
 }
 
-.privacy-list {
-  margin: 0;
-  padding-left: 18px;          /* فضای بولت‌ها */
-}
-
-.privacy-list li {
-  margin: 2px 0;
-  padding-left: 4px;
-  list-style-type: disc;
-  color: #2f5f4f;              /* خواناتر از رنگ اصلی */
-  font-weight: 500;
+.lp-lang-switch button.active {
+  text-decoration: underline;
+  color: #0b412f;
 }
