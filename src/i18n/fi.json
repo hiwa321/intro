@@ -1,0 +1,260 @@
+{
+  "app": {
+    "brand": "GreentekX-alusta",
+    "tagline": "EU-valmis • EN 15978 • Level(s) • EU-taksonomia • CSRD"
+  },
+
+  "intro": {
+    "tagline": "Mittaa hiili. Rakenna puhtaammin ja vihreämmin.",
+    "enter": "Siirry alustalle",
+    "trust": {
+      "eu": "EU-valmis vaatimustenmukaisuus",
+      "independent": "Riippumaton arviointi",
+      "secure": "Luottamuksellinen ja turvallinen"
+    },
+    "footer": "Yhdenmukainen EU-taksonomian • EN 15978 +A2 • Level(s) kanssa"
+  },
+
+  "landing": {
+    "hero": {
+      "tagline": "Mittaa hiili. Rakenna puhtaammin ja vihreämmin.",
+      "title": "Elinkaaren hiilijalanjäljen analytiikka-alusta",
+      "subtext": "Moderni, läpinäkyvä ja EU-sääntelyyn linjattu alusta, joka auttaa suunnittelutiimejä, konsultteja ja organisaatioita laskemaan ja raportoimaan elinkaaren hiilijalanjäljen luotettavasti.",
+      "primaryCta": "Pyydä sääntelyraportti",
+      "responseTime": "Tyypillinen vasteaika: 1–2 arkipäivää",
+      "trust": "Valmis EU-taksonomiaan • EN 15804+A2 • EN 15978 • Level(s)"
+    },
+
+    "value": {
+      "title": "Miksi GreentekX?",
+      "items": {
+        "euFramework": {
+          "title": "Täysi EU-yhteensopiva viitekehys",
+          "body": "Tukee EN 15804+A2-, EN 15978-, EU-taksonomia- ja Level(s)-vaatimuksia, jotta elinkaaren hiilitulokset ovat johdonmukaisia, auditoitavia ja viranomaiskelpoisia."
+        },
+        "aggregation": {
+          "title": "Korkean tarkkuuden aggregointi",
+          "body": "Yhdistää materiaalien, energian ja elinkaaren loppuvaiheen vaikutukset yhdeksi rakenteelliseksi työnkuluksi."
+        },
+        "reporting": {
+          "title": "Ammattimainen raportointimoottori",
+          "body": "Tuottaa viranomaisvalmiita raportteja ja edistyneitä analytiikkanäkymiä eurooppalaisten suunnittelutiimien vaatimusten mukaisesti."
+        }
+      }
+    },
+
+    "capabilities": {
+      "title": "Keskeiset ominaisuudet",
+      "items": {
+        "materialsHub": {
+          "title": "Materiaalien ja EPD-tietojen hallinta",
+          "body": "Hallitse materiaaleja, EPD-tietoja ja vaihekohtaisia profiileja yhdessä rakenteellisessa käyttöliittymässä."
+        },
+        "projectWlc": {
+          "title": "Projektikohtainen WLC-analyysi",
+          "body": "Laske A1–A3-, A–D- ja B6-energiavaikutukset selkeästi eroteltuina."
+        },
+        "climateBenchmarking": {
+          "title": "Ilmastovyöhykepohjainen vertailu",
+          "body": "Vertaa hankkeita pohjoismaisiin, keskieurooppalaisiin ja välimerellisiin vertailuarvoihin."
+        },
+        "stageAdjusted": {
+          "title": "Vaiheeseen suhteutettu tarkkuusmalli",
+          "body": "Huomioi hankkeen kypsyysaste konseptista toteutuneeseen vaiheeseen."
+        },
+        "indicatorSet": {
+          "title": "Täysi EN 15804+A2 -indikaattorikokonaisuus",
+          "body": "Sisältää GWP-, AP-, EP-F/M/T-, ODP-, POCP-, ADP-F/M-, WDP-, HWD-, NHWD- ja RWD-indikaattorit ilman yksinkertaistuksia."
+        },
+        "outputs": {
+          "title": "Sääntely- ja edistyneet raportit",
+          "body": "Vaihda tiiviiden sääntelyraporttien ja syvällisten analyysien välillä käyttötarpeen mukaan."
+        }
+      }
+    },
+
+    "advantages": {
+      "title": "Mikä erottaa GreentekX:n?",
+      "left": {
+        "1": "Ilmastovyöhykekohtainen normalisointi realistisiin eurooppalaisiin vertailuihin.",
+        "2": "Vaihepainotetut vertailuarvot konseptista toteutuneeseen hankkeeseen.",
+        "3": "Kaikkien EN 15804+A2 -indikaattorien kattavuus ilman oikoteitä."
+      },
+      "right": {
+        "1": "Tutkimustason läpinäkyvyys suunnitteluun ja akateemiseen käyttöön.",
+        "2": "Viranomaisvalmiit raportit selkeällä indikaattorijaolla.",
+        "3": "Moderni ja tieteellinen käyttöliittymä todellisiin projektityönkulkuihin."
+      }
+    },
+
+    "who": {
+      "title": "Kenelle GreentekX on tarkoitettu?",
+      "items": {
+        "1": "Suunnittelu- ja insinööritoimistot",
+        "2": "Hiili- ja LCA-konsultit",
+        "3": "Arkkitehtitoimistot",
+        "4": "Yliopistot ja tutkimushankkeet",
+        "5": "Kestävän kehityksen ja ESG-tiimit",
+        "6": "Julkisen sektorin ja viranomaisprojektit"
+      }
+    },
+
+    "final": {
+      "title": "Valmis tuomaan EU-tasoisen elinkaaren hiilianalyysin projekteihisi?",
+      "sub": "Aloita pilottiprojektilla tai pyydä esimerkkiraportti nähdäksesi, miten GreentekX tukee työnkulkuasi.",
+      "primaryCta": "Pyydä sääntelyraportti",
+      "secondaryCta": "Pyydä lisätietoja"
+    },
+
+    "regulatoryForm": {
+      "title": "Sääntelyn mukainen hiiliarviointipyyntö",
+      "subtitle": "Anna perustiedot projektistasi saadaksesi sääntelyvaatimukset täyttävän elinkaaren hiiliraportin.",
+      "successMessage": "Pyyntösi on lähetetty onnistuneesti.",
+      "fields": {
+        "projectName": {
+          "label": "Projektin nimi",
+          "placeholder": "esim. Toimistorakennus Helsinki"
+        },
+        "country": {
+          "label": "Maa"
+        },
+        "buildingType": {
+          "label": "Rakennustyyppi"
+        },
+        "area": {
+          "label": "Bruttopinta-ala (m²)",
+          "placeholder": "esim. 12 500"
+        },
+        "stage": {
+          "label": "Projektin vaihe"
+        },
+        "deadline": {
+          "label": "Toivottu raportointipäivä"
+        },
+        "email": {
+          "label": "Sähköpostiosoite",
+          "placeholder": "sinä@yritys.fi"
+        },
+        "notes": {
+          "label": "Lisätiedot",
+          "placeholder": "Vapaaehtoiset kommentit tai erityisvaatimukset"
+        }
+      }
+    },
+
+    "options": {
+      "buildingType": {
+        "placeholder": "Valitse rakennustyyppi",
+        "office": "Office",
+        "residential": "Residential",
+        "mixedUse": "Mixed-use",
+        "education": "Education",
+        "healthcare": "Healthcare",
+        "industrial": "Industrial",
+        "retail": "Retail",
+        "logistics": "Logistics",
+        "hotel": "Hotel",
+        "cultural": "Cultural"
+      },
+      "stage": {
+        "placeholder": "Valitse projektin vaihe",
+        "concept": "Concept",
+        "design": "Design",
+        "tender": "Tender",
+        "asBuilt": "As-built"
+      },
+      "country": {
+        "finland": "Finland",
+        "sweden": "Sweden",
+        "denmark": "Denmark",
+        "norway": "Norway",
+        "germany": "Germany",
+        "netherlands": "Netherlands",
+        "belgium": "Belgium",
+        "estonia": "Estonia",
+        "latvia": "Latvia",
+        "lithuania": "Lithuania",
+        "poland": "Poland",
+        "austria": "Austria",
+        "france": "France",
+        "italy": "Italy",
+        "spain": "Spain",
+        "portugal": "Portugal",
+        "ireland": "Ireland",
+        "uk": "United Kingdom",
+        "other": "Other"
+      }
+    },
+
+    "privacy": {
+      "title": "Tietosuoja",
+      "items": {
+        "1": "Tietojasi käsitellään luottamuksellisesti.",
+        "2": "Käytetään vain hiiliarvioinnin laatimiseen.",
+        "3": "Ei jaeta kolmansille osapuolille.",
+        "4": "Täysi tietojen poisto pyynnöstä."
+      }
+    },
+
+    "footer": {
+      "contact": "Ota yhteyttä:"
+    }
+  },
+
+  "dashboard": {
+    "title": "Projektien hallintapaneeli",
+    "subtitle": "Portfolion yleiskuva ja hiilisuorituskyvyn analyysi"
+  },
+
+  "filters": {
+    "search": "Hae projekteja...",
+    "country": "Maa",
+    "type": "Rakennustyyppi",
+    "stage": "Projektin vaihe",
+    "modules": "Moduulit",
+    "normalization": "Normalisointi",
+    "benchmarkProfile": "Vertailuprofiili"
+  },
+
+  "kpi": {
+    "totalProjects": "Projektien määrä",
+    "avgGwpPerM2": "Keskimääräinen GWP (A1–C4, kgCO₂e/m²)",
+    "compliance": "Vaatimustenmukaisuus",
+    "embodiedOperationalRatio": "Sisällytetty vs. käytönaikainen",
+    "stageCoverage": "Vaiheiden kattavuus"
+  },
+
+  "table": {
+    "project": "Projekti",
+    "type": "Tyyppi",
+    "country": "Maa",
+    "area": "Pinta-ala (m²)",
+    "year": "Vuosi",
+    "gwpA1C4": "GWP (A1–C4)",
+    "compliance": "Vaatimustenmukaisuus",
+    "performance": "Suorituskykytaso",
+    "actions": {
+      "open": "Avaa",
+      "delete": "Poista"
+    }
+  },
+
+  "export": {
+    "pdf": "Vie PDF",
+    "csv": "Vie CSV",
+    "json": "Vie JSON"
+  },
+
+  "empty": {
+    "noProjects": "Ei vielä projekteja",
+    "cta": "Luo ensimmäinen projekti ja aloita hiilipäästöjen seuranta."
+  },
+
+  "common": {
+    "close": "Sulje",
+    "cancel": "Peruuta",
+    "sending": "Lähetetään…",
+    "sendRequest": "Lähetä pyyntö",
+    "submitRequest": "Lähetä"
+  }
+}

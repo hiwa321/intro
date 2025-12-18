@@ -1,0 +1,260 @@
+{
+  "app": {
+    "brand": "GreentekX Platform",
+    "tagline": "EU-ready • EN 15978 • Level(s) • EU Taxonomy • CSRD"
+  },
+
+  "intro": {
+    "tagline": "Measure Carbon. Build Cleaner & Greener.",
+    "enter": "Enter Platform",
+    "trust": {
+      "eu": "EU-Ready Compliance",
+      "independent": "Independent Assessment",
+      "secure": "Confidential & Secure"
+    },
+    "footer": "Aligned with EU Taxonomy • EN 15978 +A2 • Level(s)"
+  },
+
+  "landing": {
+    "hero": {
+      "tagline": "Measure Carbon. Build Cleaner & Greener.",
+      "title": "Whole-Life Carbon Intelligence Platform",
+      "subtext": "A modern, transparent and EU-aligned platform that helps engineering teams, consultants and organisations calculate and report Whole-Life Carbon with clarity and confidence.",
+      "primaryCta": "Request Regulatory Assessment",
+      "responseTime": "Typical response time: 1–2 business days",
+      "trust": "Regulatory-ready for EU Taxonomy • EN 15804+A2 • EN 15978 • Level(s)"
+    },
+
+    "value": {
+      "title": "Why GreentekX?",
+      "items": {
+        "euFramework": {
+          "title": "Full EU-Compliant Framework",
+          "body": "Supports EN 15804+A2, EN 15978, EU Taxonomy and Level(s) so your Whole-Life Carbon results are consistent, auditable and regulator-ready."
+        },
+        "aggregation": {
+          "title": "High-Accuracy Aggregation",
+          "body": "Combines embodied, operational and end-of-life impacts across all materials and energy sources in one structured workflow."
+        },
+        "reporting": {
+          "title": "Professional Reporting Engine",
+          "body": "Produces clean, regulator-ready reports and advanced analytics layouts aligned with European engineering expectations."
+        }
+      }
+    },
+
+    "capabilities": {
+      "title": "Core Capabilities",
+      "items": {
+        "materialsHub": {
+          "title": "Materials Intelligence Hub",
+          "body": "Manage materials, EPDs and stage-based profiles in a single structured interface designed for Whole-Life Carbon workflows."
+        },
+        "projectWlc": {
+          "title": "Project-level WLC Analysis",
+          "body": "Calculate A1–A3, A–D and B6 energy impacts with clear separation of embodied, operational and end-of-life stages."
+        },
+        "climateBenchmarking": {
+          "title": "Climate-zone Benchmarking",
+          "body": "Compare projects against Nordic, Central European and Mediterranean benchmarks for realistic performance insights."
+        },
+        "stageAdjusted": {
+          "title": "Stage-adjusted Accuracy Model",
+          "body": "Adjust benchmarks for Concept, Design, Tender and As-built stages to reflect real project maturity."
+        },
+        "indicatorSet": {
+          "title": "Full EN 15804+A2 Indicator Set",
+          "body": "Includes GWP, AP, EP-F/M/T, ODP, POCP, ADP-F/M, WDP, HWD, NHWD, RWD and more — no shortcuts."
+        },
+        "outputs": {
+          "title": "Regulatory & Advanced Outputs",
+          "body": "Switch between compact regulatory reports and advanced analytics views depending on audience and use case."
+        }
+      }
+    },
+
+    "advantages": {
+      "title": "What Makes GreentekX Different?",
+      "left": {
+        "1": "Climate-zone normalisation for realistic European benchmarks.",
+        "2": "Stage-weighted benchmark adjustment from Concept to As-built.",
+        "3": "Transparent material-level calculations across all EN 15804+A2 indicators."
+      },
+      "right": {
+        "1": "Research-grade transparency for engineering and academic use.",
+        "2": "Regulatory-ready documentation with traceable indicator breakdowns.",
+        "3": "Modern, scientific UI designed for real project workflows."
+      }
+    },
+
+    "who": {
+      "title": "Who Uses GreentekX?",
+      "items": {
+        "1": "Engineering and design offices",
+        "2": "Carbon and LCA consultants",
+        "3": "Architecture practices",
+        "4": "Universities and research projects",
+        "5": "Sustainability and ESG teams",
+        "6": "Public-sector and regulatory bodies"
+      }
+    },
+
+    "final": {
+      "title": "Ready to Bring EU-grade Whole-Life Carbon to Your Projects?",
+      "sub": "Start with a pilot project or request a sample regulatory assessment to see how GreentekX fits your workflow.",
+      "primaryCta": "Request Regulatory Assessment",
+      "secondaryCta": "Request More Information"
+    },
+
+    "regulatoryForm": {
+      "title": "Regulatory Carbon Assessment Request",
+      "subtitle": "Provide basic project information to receive a regulatory-compliant Whole-Life Carbon report.",
+      "successMessage": "Your request has been successfully submitted.",
+      "fields": {
+        "projectName": {
+          "label": "Project Name",
+          "placeholder": "e.g. Office Building Helsinki"
+        },
+        "country": {
+          "label": "Country"
+        },
+        "buildingType": {
+          "label": "Building Type"
+        },
+        "area": {
+          "label": "Gross Floor Area (m²)",
+          "placeholder": "e.g. 12,500"
+        },
+        "stage": {
+          "label": "Project Stage"
+        },
+        "deadline": {
+          "label": "Preferred Report Deadline"
+        },
+        "email": {
+          "label": "Contact Email",
+          "placeholder": "you@company.com"
+        },
+        "notes": {
+          "label": "Additional Notes",
+          "placeholder": "Optional comments or special requirements"
+        }
+      }
+    },
+
+    "options": {
+      "stage": {
+        "placeholder": "Select project stage",
+        "concept": "Concept",
+        "design": "Design",
+        "tender": "Tender",
+        "asBuilt": "As-built"
+      },
+      "buildingType": {
+        "placeholder": "Select building type",
+        "office": "Office",
+        "residential": "Residential",
+        "mixedUse": "Mixed-use",
+        "education": "Education",
+        "healthcare": "Healthcare",
+        "industrial": "Industrial",
+        "retail": "Retail",
+        "logistics": "Logistics",
+        "hotel": "Hotel",
+        "cultural": "Cultural"
+      },
+      "country": {
+        "finland": "Finland",
+        "sweden": "Sweden",
+        "denmark": "Denmark",
+        "norway": "Norway",
+        "germany": "Germany",
+        "netherlands": "Netherlands",
+        "belgium": "Belgium",
+        "estonia": "Estonia",
+        "latvia": "Latvia",
+        "lithuania": "Lithuania",
+        "poland": "Poland",
+        "austria": "Austria",
+        "france": "France",
+        "italy": "Italy",
+        "spain": "Spain",
+        "portugal": "Portugal",
+        "ireland": "Ireland",
+        "uk": "United Kingdom",
+        "other": "Other"
+      }
+    },
+
+    "privacy": {
+      "title": "Data & Privacy",
+      "items": {
+        "1": "Your information is processed confidentially.",
+        "2": "Used solely for preparing your carbon assessment.",
+        "3": "Never shared with third parties.",
+        "4": "Full deletion available upon request."
+      }
+    },
+
+    "footer": {
+      "contact": "Contact us:"
+    }
+  },
+
+  "dashboard": {
+    "title": "Projects Dashboard",
+    "subtitle": "Portfolio overview and carbon performance analysis"
+  },
+
+  "filters": {
+    "search": "Search projects...",
+    "country": "Country",
+    "type": "Building Type",
+    "stage": "Project Stage",
+    "modules": "Modules",
+    "normalization": "Normalization",
+    "benchmarkProfile": "Benchmark Profile"
+  },
+
+  "kpi": {
+    "totalProjects": "Total Projects",
+    "avgGwpPerM2": "Average GWP (A1–C4, kgCO₂e/m²)",
+    "compliance": "Compliance",
+    "embodiedOperationalRatio": "Embodied vs Operational",
+    "stageCoverage": "Stage Coverage"
+  },
+
+  "table": {
+    "project": "Project",
+    "type": "Type",
+    "country": "Country",
+    "area": "Area (m²)",
+    "year": "Year",
+    "gwpA1C4": "GWP (A1–C4)",
+    "compliance": "Compliance",
+    "performance": "Performance Class",
+    "actions": {
+      "open": "Open",
+      "delete": "Delete"
+    }
+  },
+
+  "export": {
+    "pdf": "Export PDF",
+    "csv": "Export CSV",
+    "json": "Export JSON"
+  },
+
+  "empty": {
+    "noProjects": "No projects available yet",
+    "cta": "Click the button below to create your first project and start tracking carbon emissions."
+  },
+
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "sending": "Sending…",
+    "sendRequest": "Send Request",
+    "submitRequest": "Submit Request"
+  }
+}
