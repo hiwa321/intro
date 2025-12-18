@@ -172,32 +172,8 @@ html, body {
   }
 }
 
-/* ===== Responsive ===== */
-@media (max-width: 900px) {
-  .intro-screen {
-    padding-left: 10%;
-  }
 
-  .intro-title {
-    font-size: 40px;
-  }
 
-  .intro-tagline {
-    font-size: 17px;
-    margin-left: 80px;
-  }
-
-  .intro-btn {
-    margin-left: 80px;
-    font-size: 15px;
-    padding: 14px 36px;
-  }
-
-  .intro-globe {
-    width: 64px;
-    height: 64px;
-  }
-}
 /* ===== Three-key benefits row under Enter button ===== */
 .intro-mini-trust {
   width: 100%;
@@ -225,16 +201,77 @@ html, body {
   letter-spacing: 0.2px;
   white-space: nowrap;
 }
+@media (max-width: 900px) {
 
-/* Mobile layout */
-@media (max-width: 780px) {
+  /* مرکز کردن کامل محتوای intro */
+  .intro-center {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* لوگو و گلوب */
+  .intro-logo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* tagline */
+  .intro-tagline {
+    width: 100%;
+    margin: 12px 0 0 0;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  /* دکمه */
+  .intro-btn {
+    margin: 2.6rem auto 0 auto;
+    padding: 14px 36px;
+    display: block;
+  }
+
+  /* سه جمله زیر دکمه */
   .intro-mini-trust {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
     flex-direction: column;
-    gap: 12px;
-    margin-top: 28px;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
   }
 
   .intro-mini-trust div {
-    font-size: 14px;
+    width: 100%;
+    text-align: center;
   }
 }
+.intro-lang-switch {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  z-index: 100;
+  display: flex;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.intro-lang-switch button {
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  padding: 0;
+}
+
+.intro-lang-switch button.active {
+  color: #fff;
+  font-weight: 600;
+}
+
+.intro-lang-switch span {
+  color: #666;
+}
+
