@@ -66,13 +66,17 @@ const LandingPage: React.FC = () => {
   });
 
   useEffect(() => {
-    const handleScroll = () => {
-      setShowScrollTop(document.body.scrollTop > 250);
-    };
+  const handleScroll = () => {
+    const scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop;
 
-    document.body.addEventListener("scroll", handleScroll);
-    return () => document.body.removeEventListener("scroll", handleScroll);
-  }, []);
+    setShowScrollTop(scrollTop > 250);
+  };
+
+  window.addEventListener("scroll", handleScroll, { passive: true });
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
 
   const handleRequestRegulatory = () => {
     setShowForm(true);
@@ -268,9 +272,10 @@ const LandingPage: React.FC = () => {
       "mailto:info@greentekx.com?subject=GreentekX%20Pilot%20Project&body=Hello%20GreentekX%20team,";
   };
 
-  const handleScrollTop = () => {
-    document.body.scrollTo({ top: 0, behavior: "smooth" });
-  };
+ const handleScrollTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
 
   // Keep option values stable; translate labels only
   const countryOptions = useMemo(
@@ -1253,3 +1258,4 @@ const LandingPage: React.FC = () => {
 };
 
 export default LandingPage;
+
